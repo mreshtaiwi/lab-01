@@ -1,76 +1,84 @@
-body{
-    margin: 0 auto;
-    box-sizing: border-box;
-}
+
 @media screen and (min-width:768px) and (max-width:960px)
 {
     body{
         box-sizing: border-box;
+        /* background-color: red; */
+        height: 700px;
+        width:980px!important;
     }
     div{
         border:1px solid black !important;
+        /* border:none!important; */
     }
     div:nth-of-type(1){
+        /* a */
         width: 960px !important;
         height: 100px!important;
         line-height: 100px!important;
+        float: left;
         }
     div:nth-of-type(2){
+        /* b */
         width: 200px!important;
         height: 600px!important;
         line-height: 150px!important;
         float: left;
     }
     div:nth-of-type(3){
+        /* c */
         width: 380px!important;
         height: 200px!important;
         line-height: 125px!important;
         float: left;
     }
     div:nth-of-type(4){
+        /* d */
         width: 380px!important;
         height: 200px!important;
         line-height: 125px!important;
         float: left!important;
     }
-    div:nth-of-type(5)
-    {
+    div:nth-of-type(5){ 
+        /* e */
         width: 190px!important;
         height: 250px!important;
         line-height: 250px!important;;
         float: left!important;
     }
-    div:nth-of-type(6)
-    {
+    div:nth-of-type(6){
+        /* f */
         width: 190px!important;
         height: 250px!important;
         line-height: 250px!important;;
         float: left!important;
     }
-    div:nth-of-type(8)
-    {
+    div:nth-of-type(8){
+        /* g */
         width: 190px!important;
         height: 250px!important;
         line-height: 250px!important;
         float: left!important;
     }
-div:nth-of-type(9)
-    {
+    div:nth-of-type(9){
+        /* h */
         width: 190px!important;
         height: 250px!important;
         line-height: 250px!important;
         float: left!important;
     }
-div:nth-of-type(11)
-    {
+    div:nth-of-type(11){
+        /* i */
         width: 760px!important;
         height: 150px!important;
         line-height: 150px!important;
+        float: left;
+    }
+    div:nth-of-type(7),div:nth-of-type(10){
+        display:none!important;
     }
 }
-
 body{
-    margin: 0 auto;
     box-sizing: border-box;
 }
 .container{
@@ -79,30 +87,27 @@ body{
 div {
     background-color: #D8D8D8;
     text-align: center;
+    border: 1px solid black;
 }
 div:nth-of-type(1){
     width: 480px;
     height: 75px;
     line-height: 75px;
-    border: 1px solid black;
 }
 div:nth-of-type(2){
     width: 480px;
     height: 150px;
     line-height: 150px;
-    border: 1px solid black;
 }
 div:nth-of-type(3){
     width: 480px;
     height: 125px;
     line-height: 125px;
-    border: 1px solid black;
 }
 div:nth-of-type(4){
     width: 480px;
     height: 125px;
     line-height: 125px;
-    border: 1px solid black;
 }
 div:nth-of-type(5)
 {
@@ -110,7 +115,6 @@ div:nth-of-type(5)
     height: 50px;
     line-height: 50px;
     float: left;
-    border-bottom: 1px solid black;
 }
 div:nth-of-type(6)
 {
@@ -118,7 +122,6 @@ div:nth-of-type(6)
     height: 50px;
     line-height: 50px;
     float: left;
-    border-bottom: 1px solid black;
 }
 .clearfix{
     clear: both;
@@ -129,7 +132,6 @@ div:nth-of-type(8)
     height: 50px;
     line-height: 50px;
     float: left;
-    border-bottom: 1px solid black;
 }
 div:nth-of-type(9)
 {
@@ -137,12 +139,13 @@ div:nth-of-type(9)
     height: 50px;
     line-height: 50px;
     float: left;
-    border-bottom: 1px solid black;
 }
 div:nth-of-type(11)
 {
     width: 480px;
     height: 80px;
     line-height: 80px;
-    border-bottom: 1px solid black; 
+}
+div:nth-of-type(7),div:nth-of-type(10){
+    border:none!important;
 }
