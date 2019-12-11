@@ -1,0 +1,41 @@
+div{
+    /* background-color: gray;
+    padding: 50px;
+    float: left;
+    width: 15%;    
+    padding: 50px; */
+    box-sizing: border-box;
+
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+#d1{
+    width: 240px;
+    height: auto;
+    border: 3px solid blue;
+    float: left;
+    padding: 117px;
+}
+#d2{
+    border:3px solid red;
+    width: 240px;
+    height: auto;
+    float: left;
+    padding: 117px;
+}
+#d3{
+    border:3px solid green;
+    width: 240px;
+    height: auto;
+    float: left;
+    padding: 117px;
+}
+#d4{
+    border:3px solid yellow;
+    width: 240px;
+    height: auto;
+    float: left;
+    padding: 117px;
+}
