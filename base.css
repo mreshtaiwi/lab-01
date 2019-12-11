@@ -1,0 +1,16 @@
+@media screen and (min-width:768px)
+{
+
+}
+@media screen and (max-width:767px){
+    main{
+        margin: 0 auto;
+        max-width: 100%; 
+    }
+    div {
+        background-color: #D8D8D8;
+        text-align: center;
+        box-sizing: border-box;
+        border:1px solid black;
+    }
+}
