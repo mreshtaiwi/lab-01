@@ -3,6 +3,8 @@
     main{
         margin: 0 auto;
         max-width: 100%;
+        /* to make screen max as 960px  */
+        /* max-width: 960px; */
     }
     div{
         /* background-color: #D8D8D8; */
@@ -81,7 +83,10 @@
 @media screen and (max-width:767px){
     main{
         margin: 0 auto;
-        max-width: 100%; 
+        max-width: 100%;
+        /* to make the screen only 767px max */
+        /* max-width: 767px;  */
+
     }
     div {
         background-color: #D8D8D8;
